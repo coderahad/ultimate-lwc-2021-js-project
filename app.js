@@ -16,6 +16,10 @@
 
 // Maps in javascript
 
-const sections = new Map([["A2001", []]]);
+const sections = new Map([["A2001", ['John']]]);
 
 console.log(sections);
+
+const students = sections.get("A2001");
+students.push("Aragon");
+ console.log(sections);
