@@ -27,3 +27,12 @@ students.push("Ron");
 
  sections.set("B2001", ["Gimli", "Harry", "Ron"]);
  console.log(sections);
+
+console.log(sections.keys());
+console.log(sections.values());
+console.log(sections.entries());
+
+
+console.log(sections.has("A2001"));
+!sections.has("A2001") && sections.set("A2001");
+console.log(sections);
