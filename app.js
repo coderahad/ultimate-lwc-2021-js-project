@@ -22,4 +22,8 @@ console.log(sections);
 
 const students = sections.get("A2001");
 students.push("Aragon");
+students.push("Ron");
+ console.log(sections);
+
+ sections.set("B2001", ["Gimli", "Harry", "Ron"]);
  console.log(sections);
